@@ -1,0 +1,351 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600;900&family=Open+Sans:wght@300&family=Poppins:wght@200&family=Raleway:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    width:100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.menu{
+    width: 100vw;
+    height:60px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ffffff;
+    
+
+}
+
+.logo-header{
+    width:120px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo-header img{
+    width: 100%;
+    height: auto;
+    margin-left: 61px;
+}
+
+.menu-list{
+    display: flex;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    gap: 15px;
+    margin-right: 61px;
+    list-style-type: none;
+}
+
+.menu-list a{
+    color:black;
+    text-transform: uppercase;
+    
+
+
+}
+/*SECAO 1*/
+.secao-capa{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(v.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.capa-center .text-capa{
+display: flex;
+flex-direction: column;
+gap: 20px;
+justify-content: center;
+}
+
+.capa-center{
+    color:#ffff;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.text-capa{
+    max-width: 500px;
+    height: 100%;
+}
+
+.capa-center{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    padding: 0 10px;
+}
+
+.text-capa h1{
+    font-size: 5rem;
+    letter-spacing: 5px;
+    font-family:'Anybody', cursive;;
+    text-transform: uppercase;
+    max-width: 480px;
+
+}
+
+.text-capa p{
+    font-size: 2.7rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    opacity: 70%;
+}
+
+/*secao PRODUTOS*/
+
+.secao-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+
+    
+}
+
+.text-produtos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.text-produtos h2{
+    font-size: 3.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px 0 27px;
+    font-weight: 700;
+}
+
+.text-produtos p{
+    font-size: 2rem ;
+    font-family: sans-serif;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.produtos{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    gap:10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.produtos img{
+    width:70% ;
+    height:70%;
+}
+
+.produto1{
+  background-color: #f6f6f6;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+.produto1 h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.produto1 p{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.text-produtos2{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.text-produtos2 h2{
+font-size: 2rem;
+padding-bottom: 35px;
+text-align: center;
+padding-right: 15px;
+}
+
+.text-produtos2 li{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    
+}
+/* SECAO SOBRE*/
+.secao-sobre{
+    width: 100%;
+    height: auto;
+    background-color: #f8f7ff;
+    
+}
+.text-secao-sobre{
+    display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 1024px;
+margin-left: auto;
+margin-right: auto;
+padding: 0 10px;
+
+}
+
+.text-secao-sobre h1{
+    margin-top: 70px;
+    font-size: 5rem;
+margin-bottom: 25px;
+font-family: sans-serif;
+}
+
+.text-secao-sobre p{
+    font-family: sans-serif;
+    font-size: 2rem;
+   margin-bottom: 50px;
+   line-height: 35px;
+}
+
+.elementos-sobre{
+border:1px solid #a2adad;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+justify-content: center;
+max-width: 1024px;
+ 
+}
+
+.elementos-sobre img{
+    width: 100%;
+    height: auto;
+}
+
+.sobre-elementos h4{
+ font-size: 2.5rem;
+ text-align: center;
+ margin-bottom: 80px;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sobre-elementos p{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0 30px;
+}
+
+/*SECAO CONTATOS*/
+
+.secao-contatos{
+    background-color: #05031b;
+    color: #fff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.contatos-center{
+margin-left: auto;
+  margin-right: auto;
+max-width: 1024px;
+padding: 0 10px;
+}
+.contatos-center h1{
+    font-size: 3.7rem;
+    font-family: sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+
+
+}
+
+.contatos-center p{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+    
+}
+.central-de-redes{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    grid-gap: 25px;
+    
+}
+
+.bloco-contato{
+text-align: left ;
+
+}
+
+.bloco-contato h4{
+    font-size: 2rem;
+    padding: 25px 0;
+
+}
+
+.bloco-contato li{
+    font-size: 1.8rem;
+    list-style-type: none;
+}
+
+.bloco-contato li i{
+    padding-right: 5px;
+}
+
+/*footer*/
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: #adadad;
+    font-size: 1.3rem;
+}
+.footer-center{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.footer-center span{
+    color: white;
+}
+
+/*resposividade em construção*/
